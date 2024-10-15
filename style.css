@@ -1,0 +1,21 @@
+html,body{
+    margin:0;
+    padding:0;
+    background-color: black;
+}
+.container{
+    height:300px;
+    width:calc(300px*3/2);
+    margin:5em auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+}
+.red{
+    background-color:red;
+}
+.blue{
+    background-color: blue;
+}
+.white{
+    background-color: white;
+}
